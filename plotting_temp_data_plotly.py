@@ -16,8 +16,8 @@ with open(filename) as f:
     header=next(reader)                     #gets the line to be read next and stores in header. This takes the first line such that from the rnext reading, the header isn't read 
 
     for row in reader:                      #loops each row in reader. row is a list here
-        t_min.append(int(row[5]))               
-        t_max.append(int(row[6]))
+        t_min.append(int(row[6]))               
+        t_max.append(int(row[5]))
         avg=int(row[5]) + int(row[6])
         t_avg.append(avg//2)
         cur_date=datetime.strptime(row[2], '%Y-%m-%d')
