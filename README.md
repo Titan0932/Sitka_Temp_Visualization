@@ -13,3 +13,5 @@ I also added some comments to make things easier to understand.
 Its again fairly simple but was really fun to do. 
 
 It also saves an html file of the graph automatically.
+
+P.S create a directory named 'data' and store the csv file there or You may just change the link specified in the 'filename' variable
